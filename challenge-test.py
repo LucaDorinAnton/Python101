@@ -54,6 +54,8 @@
 
 # If you're code crashes in any way, you are disqualified!
 
+# If your code takes longer than 30 seconds, you will be disqualified!
+
 # Screen size will be set to 850x850 pixels! You start in the middle.
 # Take that into account!
 
@@ -80,10 +82,10 @@ from turtle import *
 
 import random
 import signal
+import time
 
 screen = turtle.Screen()
 turtle.setup(850,850)
-turtle.delay(0)
 t = Turtle()
 
 # List of colors which you can use
@@ -137,204 +139,14 @@ def para(side_len1,side_len2, color, angle):
 
 
 def draw1():
-
-
-
+    sq(100, "red")
 
 def draw2():
-
-
-
+    oct(100, "green")
 
 def draw3():
-
-
-
-
-def draw4():
-
-
-
-
-def draw5():
-
-
-
-
-def draw6():
-
-
-
-
-def draw7():
-
-
-
-
-def draw8():
-
-
-
-
-def draw9():
-
-
-
-
-def draw10():
-
-
-
-
-def draw11():
-
-
-
-
-def draw12():
-
-
-
-
-def draw13():
-
-
-
-
-def draw14():
-
-
-
-
-def draw15():
-
-
-
-
-def draw16():
-
-
-
-
-def draw17():
-
-
-
-
-def draw18():
-
-
-
-
-def draw19():
-
-
-
-
-def draw20():
-
-
-
-
-def draw21():
-
-
-
-
-def draw22():
-
-
-
-
-def draw23():
-
-
-
-
-def draw24():
-
-
-
-
-def draw25():
-
-
-
-
-def draw26():
-
-
-
-
-def draw27():
-
-
-
-
-def draw28():
-
-
-
-
-def draw29():
-
-
-
-
-def draw30():
-
-
-
-
-def draw31():
-
-
-
-
-def draw32():
-
-
-
-
-def draw33():
-
-
-
-
-def draw34():
-
-
-
-
-
-def draw35():
-
-
-
-
-def draw36():
-
-
-
-
-def draw37():
-
-
-
-
-def draw38():
-
-
-
-
-def draw39():
-
-
-
-
-def draw40():
-
-
+    trig(50, "blue")
+    asfdjhasdljfkhasdj
 
 
 
@@ -342,14 +154,7 @@ def draw40():
 # DO NOT EDIT ANY CODE BELOW THIS LINE!
 # --------------------------------------
 
-funcs = [draw1, draw2, draw3, draw4, draw5,
-         draw6, draw7, draw8, draw9, draw10,
-         draw10, draw11, draw12, draw13, draw14,
-         draw15, draw16, draw17, draw18, draw19,
-         draw20, draw21, draw22, draw23, draw24,
-         draw25, draw26, draw27, draw28, draw29,
-         draw30, draw31, draw32, draw33, draw34,
-         draw35, draw36, draw37, draw38, draw39, draw40]
+funcs = [draw1, draw2, draw3]
 
 def cleanup():
     screen.clearscreen()
