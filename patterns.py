@@ -67,9 +67,6 @@ def colorsq():
     sq()
     t.end_fill()
 
-
-
-
 def color_sq36():
     t.pencolor("blue")
     t.fillcolor("violet")
